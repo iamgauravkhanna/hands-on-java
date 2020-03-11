@@ -1,8 +1,8 @@
 package javaExamples.collections;
 
-import java.util.*;
-
 import org.junit.Test;
+
+import java.util.HashMap;
 
 public class HashMap3D {
 
