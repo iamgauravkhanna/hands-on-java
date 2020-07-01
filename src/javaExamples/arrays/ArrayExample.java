@@ -1,11 +1,5 @@
 package javaExamples.arrays;
 
-/**
- * 
- * @author Gaurav.Khanna
- *
- */
-
 public class ArrayExample {
 
 	public static void main(String[] args) {
