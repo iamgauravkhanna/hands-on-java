@@ -1,4 +1,4 @@
-package javaExamples.dataStructure;
+package javaExamples.algorithms;
 
 public class BubbleSortExample {
 

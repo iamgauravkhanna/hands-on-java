@@ -1,4 +1,4 @@
-package javaExamples.dataStructure;
+package javaExamples.algorithms;
 
 /*
  *  Java Program to Implement Singly Linked List

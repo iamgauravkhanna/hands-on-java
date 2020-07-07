@@ -1,4 +1,4 @@
-package javaExamples.arrays;
+package javaExamples.dataStructure.array;
 
 public class ArrayExample {
 
