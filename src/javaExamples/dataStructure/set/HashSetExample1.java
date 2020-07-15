@@ -17,10 +17,16 @@ public class HashSetExample1 {
         HashSet<String> hashSet = new HashSet<>();
 
         hashSet.add("Blue") ;
+
         hashSet.add("Red") ;
+
         hashSet.add("Green") ;
 
         hashSet.add("Blue") ;
+
+        hashSet.add("Yellow") ;
+
+        hashSet.add("White") ;
 
         hashSet.add(null);
 
