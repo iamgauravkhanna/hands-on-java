@@ -1,6 +1,6 @@
 package javaExamples.characters;
 
-public class Characters1 {
+public class CharactersExample1 {
 
 	static char charObj = 'C' ;
 	
