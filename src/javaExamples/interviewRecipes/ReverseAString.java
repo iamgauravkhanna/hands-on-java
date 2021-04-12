@@ -17,14 +17,18 @@ import java.util.ListIterator;
  * 4. Swapping with char variable
  * <p>
  * 5. ListIterator
+ * <p>
+ * Input : Gaurav Kumar Khanna
+ * <p>
+ * Output : annahK ramuK varuaG
  */
 public class ReverseAString {
 
     public String invertWithStringBuffer(String str) {
 
-        StringBuffer buffer = new StringBuffer(str);
-        buffer.reverse();
-        return buffer.toString();
+        StringBuffer stringBuffer = new StringBuffer(str);
+        stringBuffer.reverse();
+        return stringBuffer.toString();
     }
 
     public String invertWithoutStringBuffer(String str) {

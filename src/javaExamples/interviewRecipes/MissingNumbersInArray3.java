@@ -1,6 +1,6 @@
 package javaExamples.interviewRecipes;
 
-public class Program1 {
+public class MissingNumbersInArray3 {
 
 	public static void main(String args[]) {
 

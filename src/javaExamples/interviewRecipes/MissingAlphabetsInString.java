@@ -4,8 +4,11 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-// Program to find Missing Alphabets in String
-
+/**
+ * Program to find Missing Alphabets in String
+ * <p>
+ * Finding Panagram String
+ */
 public class MissingAlphabetsInString {
 
 	public static void main(String args[]) {

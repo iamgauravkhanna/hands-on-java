@@ -13,7 +13,7 @@ public class PalindromeStringExample2 {
 	public static void main(String args[]) {
 
 		//
-		String inputString = "jake";
+		String inputString = "daad";
 
 		//
 		int length = inputString.length(); // 6
@@ -25,10 +25,10 @@ public class PalindromeStringExample2 {
 		begin = 0;
 
 		//
-		end = length - 1; // 5
+		end = length - 1; // 3
 
 		//
-		middle = (begin + end) / 2; // 2
+		middle = (begin + end) / 2; // 1
 
 		//
 		for (i = begin; i <= middle; i++) {
@@ -37,10 +37,10 @@ public class PalindromeStringExample2 {
 			if (inputString.charAt(begin) == inputString.charAt(end)) {
 
 				//
-				begin++; //3
+				begin++; //1
 
 				//
-				end--; //2
+				end--; //1
 
 			} else {
 

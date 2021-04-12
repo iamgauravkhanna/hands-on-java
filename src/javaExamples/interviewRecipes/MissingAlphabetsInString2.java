@@ -3,65 +3,66 @@ package javaExamples.interviewRecipes;
 import java.util.Arrays;
 import java.util.Scanner;
 
-//Program to find Missing Alphabets in String
-
+/**
+ * Program to find Missing Alphabets in String
+ * <p>
+ * Finding Panagram String
+ */
 public class MissingAlphabetsInString2 {
 
-	private static Scanner scannerObj;
+    private static Scanner scanner;
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-		String finalString = "";
+        String finalString = "";
 
-		boolean[] alphabetPresent = new boolean[26];
+        boolean[] alphabetPresent = new boolean[26];
 
-		Arrays.fill(alphabetPresent, Boolean.FALSE);
+        Arrays.fill(alphabetPresent, Boolean.FALSE);
 
-		scannerObj = new Scanner(System.in);
+        scanner = new Scanner(System.in);
 
-		System.out.println("Please provide sentence");
+        System.out.println("Please provide sentence");
 
-		String inputString = scannerObj.nextLine();
+        String inputString = scanner.nextLine();
 
-		inputString = inputString.replace(" ", "");
+        inputString = inputString.replace(" ", "");
 
-		inputString = inputString.toLowerCase();
+        inputString = inputString.toLowerCase();
 
-		char[] charArray = inputString.toCharArray();
+        char[] charArray = inputString.toCharArray();
 
-		for (int i = 0; i < charArray.length; i++) {
+        for (int i = 0; i < charArray.length; i++) {
 
-			if (charArray[i] >= 'a' & charArray[i] <= 'z') {
+            if (charArray[i] >= 'a' & charArray[i] <= 'z') {
 
-				int position = charArray[i] - 'a';
+                int position = charArray[i] - 'a';
 
-				alphabetPresent[position] = Boolean.TRUE;
+                alphabetPresent[position] = Boolean.TRUE;
 
-			}
+            }
 
-		}
+        }
 
-		for (int a = 0; a < alphabetPresent.length; a++) {
+        for (int a = 0; a < alphabetPresent.length; a++) {
 
-			if (alphabetPresent[a] == Boolean.FALSE) {
+            if (alphabetPresent[a] == Boolean.FALSE) {
 
-				finalString = finalString + (char) (a + 'a');
-			}
+                finalString = finalString + (char) (a + 'a');
+            }
 
-		}
+        }
 
-		if (finalString.length() > 0) {
+        if (finalString.length() > 0) {
 
-			System.out.println("Characters Missing : " + finalString);
+            System.out.println("Characters Missing : " + finalString);
 
-		}
+        } else {
 
-		else {
+            System.out.println("There are no missing characters. String is Pangram");
 
-			System.out.println("There are no missing characters. String is Pangram");
+        }
 
-		}
-
-	}
+    }
 
 }
