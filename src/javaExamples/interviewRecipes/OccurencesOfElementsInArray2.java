@@ -3,7 +3,7 @@ package javaExamples.interviewRecipes;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class ElementOccurenceInArray {
+public class OccurencesOfElementsInArray2 {
 
 	public static void main(String[] args) {
 

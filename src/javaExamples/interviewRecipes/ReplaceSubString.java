@@ -32,11 +32,11 @@ public class ReplaceSubString {
 
 	public void replaceSubString3() {
 
-		String str = "This is the method number 3 for string manipulation";
+		String str = "I use selenium webdriver. selenium is a tool for web applications automation.";
 
 		StringBuffer stringBufferObj = new StringBuffer(str);
 
-		System.out.println(stringBufferObj.replace(12, 18, "NewMethod"));
+		System.out.println(stringBufferObj.replace(6, 14, "Firefox"));
 
 	}
 

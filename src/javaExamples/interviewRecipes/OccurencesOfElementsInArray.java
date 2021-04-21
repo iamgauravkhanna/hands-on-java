@@ -4,7 +4,7 @@ package javaExamples.interviewRecipes;
 
 import java.util.Scanner;
 
-public class OccurencesOfElements {
+public class OccurencesOfElementsInArray {
 
 	private static Scanner input, sizeOfArray;
 
