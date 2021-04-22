@@ -1,9 +1,9 @@
 package javaExamples.interviewRecipes;
 
 /**
- * If �n� is the positive number and �a� is an array of integers of length n-1
- * containing elements from 1 to n. Then find the missing number in �a� in the
- * range from 1 to n. Occurrence of each element is only once. i.e �a� does not
+ * If n is the positive number and a is an array of integers of length n-1
+ * containing elements from 1 to n. Then find the missing number in a in the
+ * range from 1 to n. Occurrence of each element is only once. i.e a does not
  * contain duplicates.
  *
  */
