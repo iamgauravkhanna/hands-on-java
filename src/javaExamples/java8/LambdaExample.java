@@ -2,7 +2,7 @@ package javaExamples.java8;
 
 public class LambdaExample {
 
-    interface MathOperation{
+     interface MathOperation{
         int operation(int a, int b);
     }
 
