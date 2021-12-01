@@ -1,7 +1,12 @@
 package java_examples.interview_recipes;
 
-// Program to find duplicate elements in an array and print them
-
+/**
+ * Find Duplicate Elements in Array
+ *
+ * Using HashSet
+ *
+ * Time Complexity : O(n)
+ */
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;

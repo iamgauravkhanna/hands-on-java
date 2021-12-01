@@ -2,6 +2,11 @@ package java_examples.interview_recipes;
 
 import java.util.Arrays;
 
+/**
+ *
+ * Find if string is anagram or not
+ *
+ */
 public class AnagramStrings {
 
     public static void main(String[] args) {
