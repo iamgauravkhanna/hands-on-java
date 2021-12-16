@@ -1,4 +1,4 @@
-package java_examples.interview_recipes;
+package java_examples.dataStructure.array;
 
 // Program to Find the first two max values from an array
 
