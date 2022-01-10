@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 
 /**
  * Input : Blue Sky
- * <p>
  * Output : Sky Blue
  */
 public class ReverseAString3 {

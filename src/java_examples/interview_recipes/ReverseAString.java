@@ -5,25 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
-/**
- * Program to Reverse a string using
- * <p>
- * 1. StringBuilder / StringBuffer - StringBuffer is thread safe
- * <p>
- * 2. Byte Array
- * <p>
- * 3. Recursion
- * <p>
- * 4. Swapping with char variable
- * <p>
- * 5. ListIterator
- * <p>
- * Input : Gaurav Kumar Khanna
- * <p>
- * Output : annahK ramuK varuaG
- */
 public class ReverseAString {
 
+    // Using StringBuffer - StringBuffer is thread safe
     public String invertWithStringBuffer(String str) {
 
         StringBuffer stringBuffer = new StringBuffer(str);
@@ -31,6 +15,7 @@ public class ReverseAString {
         return stringBuffer.toString();
     }
 
+    // Without Using StringBuffer - StringBuffer is thread safe
     public String invertWithoutStringBuffer(String str) {
 
         int length = str.length();
@@ -42,6 +27,7 @@ public class ReverseAString {
         return invert;
     }
 
+    // Using StringBuffer - StringBuffer is thread safe
     public String reverse(String str) {
 
         int i = str.length();
@@ -53,16 +39,15 @@ public class ReverseAString {
         return strb.toString();
     }
 
+    // Using Recursion
     public String reverseStringUsingRecursion(String str) {
 
         if (str.isEmpty()) {
-
             return str;
         }
 
         // Calling Function Recursively
         return reverseStringUsingRecursion(str.substring(1)) + str.charAt(0);
-
     }
 
     public void reverseUsingListIterator(String str) {
@@ -100,7 +85,7 @@ public class ReverseAString {
         System.out.println("Reversed String with Recursion class => "
                 + invertStr.reverseStringUsingRecursion("Gaurav Kumar Khanna"));
 
-        System.out.println("Reversed String without List Iterator class => ");
+        System.out.print("Reversed String with List Iterator class => ");
 
         invertStr.reverseUsingListIterator("Gaurav Kumar Khanna");
 
