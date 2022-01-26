@@ -4,21 +4,21 @@ public class ReverseNumber {
 
 	public long doInvert(long number) {
 
-		long invert = 0;
+		long reversedNumber = 0;
 
 		while (number != 0) {
 
-			invert = (invert * 10) + (number % 10);
+			reversedNumber = (reversedNumber * 10) + (number % 10);
 
 			number = number / 10;
 		}
 
-		return invert;
+		return reversedNumber;
 	}
 
 	public static void main(String args[]) {
 
-		long lnum = 986532;
+		long lnum = 54321;
 
 		ReverseNumber input = new ReverseNumber();
 

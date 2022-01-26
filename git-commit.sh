@@ -4,6 +4,6 @@ git status
 
 git add .
 
-git commit -m "changes"
+git commit -m "adding new examples"
 
 git push

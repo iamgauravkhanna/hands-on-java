@@ -1,5 +1,6 @@
 package java_examples.interview_recipes;
 
+// The number which is only divisible by itself and 1 is known as prime number.
 class PrimeNumber {
 
 	public static void main(String[] args) {
@@ -10,9 +11,9 @@ class PrimeNumber {
 
 			int counter = 0;
 
-			for (int num = i; num >= 1; num--) {
+			for (int j = i; j >= 1; j--) {
 
-				if (i % num == 0) {
+				if (i % j == 0) {
 
 					counter = counter + 1;
 

@@ -1,8 +1,8 @@
-package java_examples.strings;
+package java_examples.interview_recipes;
 
 import java.util.*;
 
-class Palindrome2 {
+class PalindromeStringExample4 {
 	public static void main(String args[]) {
 		String inputString;
 		Scanner in = new Scanner(System.in);
