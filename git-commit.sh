@@ -1,9 +1,15 @@
 mvn clean
 
+ls -ltr
+
 git status
 
 git add .
 
-git commit -m "adding new examples"
+git status
+
+foo="changes-"$RANDOM
+
+git commit -m $foo
 
 git push
