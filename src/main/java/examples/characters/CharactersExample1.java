@@ -1,4 +1,4 @@
-package java.examples.characters;
+package examples.characters;
 
 public class CharactersExample1 {
 
