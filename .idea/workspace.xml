@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,13 +40,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.LambdaExample">
+  <component name="RunManager" selected="Application.DateTimeExample">
     <configuration name="CharactersExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.characters.CharactersExample1" />
       <module name="hands-on-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="examples.characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.java8.DateTimeExample" />
+      <module name="hands-on-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QRCodeReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.barCodeReader.QRCodeReader" />
+    <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.java8.StreamsExample" />
       <module name="hands-on-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examples.barCodeReader.*" />
+          <option name="PATTERN" value="examples.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringJoinerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.java8.StringJoinerExample" />
+      <module name="hands-on-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateTimeExample" />
+        <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.StringJoinerExample" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.CharactersExample1" />
-        <item itemvalue="Application.QRCodeReader" />
       </list>
     </recent_temporary>
   </component>
