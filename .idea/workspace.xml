@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="430caa1a-4561-44f4-b5dc-b3f6dc812433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/characters/CharactersExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/characters/CharactersExample1.java" afterDir="false" />
-    </list>
+    <list default="true" id="430caa1a-4561-44f4-b5dc-b3f6dc812433" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +27,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CharactersExample1">
+  <component name="RunManager" selected="Application.LambdaExample">
     <configuration name="CharactersExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.characters.CharactersExample1" />
       <module name="hands-on-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="examples.characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.java8.LambdaExample" />
+      <module name="hands-on-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.CharactersExample1" />
         <item itemvalue="Application.QRCodeReader" />
       </list>
