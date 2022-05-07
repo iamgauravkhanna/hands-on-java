@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="430caa1a-4561-44f4-b5dc-b3f6dc812433" name="Default Changelist" comment="" />
+    <list default="true" id="430caa1a-4561-44f4-b5dc-b3f6dc812433" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/git-commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/git-commit.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
