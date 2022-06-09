@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="430caa1a-4561-44f4-b5dc-b3f6dc812433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/git-commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/git-commit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/designPatterns/SingletonDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/designPatterns/SingletonDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.DateTimeExample">
-    <configuration name="CharactersExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.characters.CharactersExample1" />
-      <module name="hands-on-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.characters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingletonDesignPattern (1)">
     <configuration name="DateTimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.java8.DateTimeExample" />
       <module name="hands-on-java" />
@@ -69,12 +57,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.java8.LambdaExample" />
+    <configuration name="SingletonDesignPattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.designPatterns.SingletonDesignPattern" />
       <module name="hands-on-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examples.java8.*" />
+          <option name="PATTERN" value="examples.designPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.examples.designPatterns.SingletonDesignPattern" />
+      <module name="hands-on-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.examples.designPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonDesignPattern (1)" />
+        <item itemvalue="Application.SingletonDesignPattern" />
         <item itemvalue="Application.DateTimeExample" />
         <item itemvalue="Application.StreamsExample" />
         <item itemvalue="Application.StringJoinerExample" />
-        <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.CharactersExample1" />
       </list>
     </recent_temporary>
   </component>
