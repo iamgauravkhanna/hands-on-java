@@ -1,20 +1,20 @@
-<?xml version = "1.0"?>
+<?xml version="1.0"?>
 <class>
-   <student rollno = "393">
+   <student rollno="393">
       <firstname>Gaurav</firstname>
       <lastname>Khanna</lastname>
       <nickname>GK</nickname>
       <marks>85</marks>
    </student>
-   
-   <student rollno = "493">
+
+   <student rollno="493">
       <firstname>Vaneet</firstname>
       <lastname>Gupta</lastname>
       <nickname>vinni</nickname>
       <marks>95</marks>
    </student>
-   
-   <student rollno = "593">
+
+   <student rollno="593">
       <firstname>jasvir</firstname>
       <lastname>singh</lastname>
       <nickname>jazz</nickname>
