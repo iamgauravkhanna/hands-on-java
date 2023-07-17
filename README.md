@@ -1,2 +1,3 @@
 # hands-on-java
-Java related topics and examples
+
+Java 8 and below related topics and examples
