@@ -38,7 +38,7 @@
     "last_opened_file_path": "/Users/gaurav.khanna/git/hands-on-java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamsExample2">
+  <component name="RunManager" selected="Application.StreamsExample">
     <configuration name="DateTimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.java8.DateTimeExample" />
       <module name="hands-on-java" />
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsExample" />
         <item itemvalue="Application.StreamsExample2" />
         <item itemvalue="Application.SingletonDesignPattern (1)" />
         <item itemvalue="Application.SingletonDesignPattern" />
         <item itemvalue="Application.DateTimeExample" />
-        <item itemvalue="Application.StreamsExample" />
       </list>
     </recent_temporary>
   </component>

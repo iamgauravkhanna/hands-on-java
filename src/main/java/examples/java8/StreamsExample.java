@@ -33,7 +33,8 @@ public class StreamsExample {
     }
 
     static void findEvenNumbers() {
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+
+        List<Integer> arrayList = new ArrayList<Integer>();
 
         for (int i = 0; i < 10; i++)
             arrayList.add(new Random().nextInt(100));
