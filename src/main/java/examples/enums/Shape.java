@@ -2,6 +2,7 @@ package examples.enums;
 
 public enum Shape {
     CIRCLE(0) {
+
         @Override
         public double calculateArea(double radius) {
             return Math.PI * Math.pow(radius, 2);
@@ -25,9 +26,13 @@ public enum Shape {
     },
     TRIANGLE(3) {
         @Override
-        public double calculateArea(double base, double height) {
-            return 0.5 * base * height;
+        public double calculateArea(double radius) {
+            return 0;
         }
+//        @Override
+//        public double calculateArea(double base, double height) {
+//            return 0.5 * base * height;
+//        }
 
         @Override
         public String toString() {
@@ -45,7 +50,7 @@ public enum Shape {
         return numberOfSides;
     }
 
-    public abstract double calculateArea(double... parameters);
-
     public abstract double calculateArea(double radius);
+
+    //public abstract double calculateArea(double base, double height);
 }
